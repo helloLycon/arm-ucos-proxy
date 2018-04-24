@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Webmaster</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<!-- Le styles -->
+		<link href="assets/css/bootstrap_plus.min.css" rel="stylesheet">
+		<style type="text/css">
+			html{
+				overflow-x: hidden;
+				overflow-y: auto;
+			}
+			body {
+				padding-top: 5px;
+				padding-bottom: 40px;
+			}
+			.sidebar-nav {
+				padding: 9px 0;
+			}
+
+			@media (max-width: 980px) {
+				/* Enable use of floated navbar text */
+				.navbar-text.pull-right {
+					float: none;
+					padding-left: 5px;
+					padding-right: 5px;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="span12">
+					<div class="page-header">
+						<h4>账户管理<small></small></h4>
+					</div>
+					<!--<ul class="breadcrumb">
+						<li><a href="#">账户管理</a> <span class="divider">/</span></li>
+					</ul>-->
+					<div class="well span4 offset4">
+						<form id="acct_form" method="post" action="/account.cgi">
+							<legend>&#24403;&#21069;&#36134;&#25143;/&#23494;&#30721;</legend>
+							<input name="cur_user" id="old_user" class="input-block-level" type="text" placeholder="&#24403;&#21069;&#29992;&#25143;&#21517;" maxlength="16" required>
+							<input name="cur_passwd" id="old_passwd" class="input-block-level" type="password" placeholder="&#24403;&#21069;&#23494;&#30721;" maxlength="16" required>
+							<legend>&#26032;&#36134;&#25143;/&#23494;&#30721;</legend>
+							<input name="new_user" id="new_user" class="input-block-level" type="text" placeholder="&#26032;&#30340;&#29992;&#25143;&#21517;(&#33267;&#23569;4&#20010;&#23383;&#27597;&#25110;&#25968;&#23383;)" maxlength="16" required>
+							<input name="new_passwd" id="new_passwd" class="input-block-level" type="password" placeholder="&#26032;&#30340;&#23494;&#30721;(&#33267;&#23569;4&#20010;&#23383;&#27597;&#25110;&#25968;&#23383;)" maxlength="16" required>
+							<input name="new_passwd_cfm" id="new_passwd_cfm" class="input-block-level" type="password" placeholder="&#30830;&#35748;&#26032;&#30340;&#23494;&#30721;" maxlength="16" required>
+							<button name="B1" type="button" id="account_btn" class="btn btn-large btn-primary btn-block disabled" disabled="disabled"><i class="icon-white icon-hand-up"></i>&nbsp;&#25552;&#20132;</button>
+						</form>
+					</div>
+				</div><!--/span-->
+			</div><!--/row-->
+
+			<hr>
+
+		</div><!--/.fluid-container-->
+
+		<!-- Le javascript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="assets/jQ/jquery_bootstrap.min.js"></script>
+		<script src="assets/js/account.js"></script>
+	</body>
+</html>

@@ -1,0 +1,165 @@
+<svg width="850" height="100" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g stroke="null">
+  <title>background</title>
+  <rect fill="#4c4c4c" id="canvas_background" height="202" width="852" y="-1" x="-1" stroke="null"/>
+  <g display="none" id="canvasGrid" stroke="null">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%" id="svg_2" stroke="null"/>
+  </g>
+ </g>
+ <g stroke="null">
+  <title>Layer 1</title>
+  <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="96.952604" y="103.366388" id="svg_9" font-size="20" font-family="Arvo, sans-serif" text-anchor="start" xml:space="preserve" font-weight="bold" font-style="normal" transform="matrix(1.1179811620620936,0,0,1.0956702253352333,-51.17138329559373,-84.39983797728387) " stroke="null">恒捷通信</text>
+  <text fill="#ffffff" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="519.5" y="46.5" id="svg_13" font-size="13" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve" font-weight="normal" stroke="#000">NMI</text>
+  <text fill="#ffffff" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="556.5" y="47.5" id="svg_14" font-size="13" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve" font-weight="normal" stroke="#000">Console</text>
+  <text fill="#ffffff" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="696" y="82.5" id="svg_18" font-size="17" font-family="Arvo, sans-serif" text-anchor="start" xml:space="preserve" font-weight="bold" stroke="#000">千兆多业务光端机</text>
+  <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="391.809341" y="52.5" id="svg_20" font-size="13" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve" font-weight="normal" stroke="null">OPT1</text>
+  <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="451.406265" y="52.5" id="svg_21" font-size="13" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve" font-weight="normal" stroke="null">OPT2</text>
+  <g id="svg_25" stroke="null">
+   <path d="m25.42717,11.71244c-0.332239,0.52849 -0.42717,6.73799 -0.09494,6.73799c0.14241,0 1.85111,-1.01289 3.797121,-2.29003c2.990221,-1.937711 3.559778,-2.510241 3.559778,-3.52312l0,-1.23309l-3.51232,0c-1.94603,0 -3.654709,0.13212 -3.74964,0.308249z" id="svg_4" fill="#ffffff" stroke="null"/>
+   <path d="m44.080441,18.494459l0,6.649881l1.328991,-0.792681c0.711948,-0.396389 2.278259,-1.365231 3.512318,-2.11388l2.278259,-1.365259l0,-4.53598l0,-4.491961l-3.559788,0l-3.55978,0l0,6.649879z" id="svg_5" fill="#ff0000" stroke-width="0" stroke="black"/>
+   <path d="m28.84457,18.186211c-1.756161,1.10095 -3.275,2.245979 -3.4174,2.55423c-0.09494,0.35232 -0.189859,2.29003 -0.142401,4.31583l0.04747,3.74329l3.559792,0l3.55979,0l0.094929,-3.3029l0.047462,-3.25889l4.793839,0.13213l4.79385,0.13209l0,-2.025799l0,-2.025761l-4.936249,0l-4.983692,0l0.237331,-1.100981c0.094921,-0.61652 0.047459,-1.100948 -0.142399,-1.100948c-0.237312,0 -1.803631,0.88077 -3.512331,1.93771l0.00001,0l0,0z" id="svg_6" fill="#ffffff" stroke="null"/>
+   <path d="m48.067379,24.395679l-2.895267,1.937731l-4.69891,0.132111l-4.698921,0.132109l0,1.32119l0,1.32114l5.363419,0.132141l5.3634,0.132109l2.37318,-1.629469c2.183342,-1.45327 2.325729,-1.71748 2.325729,-3.523081c0,-1.056959 -0.047478,-1.937729 -0.09491,-1.937729c-0.094948,0 -1.471409,0.924799 -3.03772,1.981749z" id="svg_7" fill="#ffffff" stroke="null"/>
+  </g>
+  <g transform="matrix(0.5077467149098546,0,0,0.4501034913383805,-2543.616667832248,-979.2423579368478) " id="svg_294" stroke="null"/>
+  <g transform="matrix(0.5077467149098546,0,0,0.4501034913383805,-2543.616667832248,-979.2423579368478) " id="svg_295" stroke="null"/>
+  <g transform="matrix(0.5077467149098546,0,0,0.4501034913383805,-2543.616667832248,-979.2423579368478) " id="svg_296" stroke="null"/>
+  <g transform="matrix(0.5077467149098546,0,0,0.4501034913383805,-2543.616667832248,-979.2423579368478) " id="svg_297" stroke="null"/>
+  <g transform="matrix(0.5077467149098546,0,0,0.4501034913383805,-2543.616667832248,-979.2423579368478) " id="svg_298" stroke="null"/>
+  <g transform="matrix(0.5077467149098546,0,0,0.4501034913383805,-2543.616667832248,-979.2423579368478) " id="svg_299" stroke="null"/>
+  <g transform="matrix(0.5077467149098546,0,0,0.4501034913383805,-2543.616667832248,-979.2423579368478) " id="svg_300" stroke="null"/>
+  <g transform="matrix(0.5077467149098546,0,0,0.4501034913383805,-2543.616667832248,-979.2423579368478) " id="svg_301" stroke="null"/>
+  <g transform="matrix(0.5077467149098546,0,0,0.4501034913383805,-2543.616667832248,-979.2423579368478) " id="svg_302" stroke="null"/>
+  <g transform="matrix(0.5077467149098546,0,0,0.4501034913383805,-2543.616667832248,-979.2423579368478) " id="svg_303" stroke="null"/>
+  <g transform="matrix(0.5077467149098546,0,0,0.4501034913383805,-2543.616667832248,-979.2423579368478) " id="svg_304" stroke="null"/>
+  <g transform="matrix(0.5077467149098546,0,0,0.4501034913383805,-2543.616667832248,-979.2423579368478) " id="svg_305" stroke="null"/>
+  <g transform="matrix(0.5077467149098546,0,0,0.4501034913383805,-2543.616667832248,-979.2423579368478) " id="svg_306" stroke="null"/>
+  <g transform="matrix(0.5077467149098546,0,0,0.4501034913383805,-2543.616667832248,-979.2423579368478) " id="svg_307" stroke="null"/>
+  <g transform="matrix(0.5077467149098546,0,0,0.4501034913383805,-2543.616667832248,-979.2423579368478) " id="svg_308" stroke="null"/>
+  <g id="svg_312" stroke="null">
+   <path id="svg_279" fill="#AFBBBC" d="m430.611328,82.726677c0,1.937836 -1.600006,3.523323 -3.555603,3.523323l-39.11142,0c-1.955597,0 -3.555603,-1.585487 -3.555603,-3.523323l0,-14.974091c0,-1.937813 1.600006,-3.523308 3.555603,-3.523308l39.11142,0c1.955597,0 3.555603,1.585495 3.555603,3.523308l0,14.974091z" stroke="null"/>
+   <path id="svg_280" fill="#97A9AA" d="m384.388702,67.928772c0,-1.937843 1.600006,-3.699493 3.555603,-3.699493l39.11142,0c1.955597,0 3.555603,1.84977 3.555603,3.78756l0,14.709839c0,1.937836 -1.600006,3.523323 -3.555603,3.523323" stroke="null"/>
+   <circle transform="matrix(0.11111208186398079,0,0,0.11010357932394854,-315.2222439787806,-104.17147449884115) " id="svg_281" fill="#364B4C" r="76" cy="1633.47578" cx="6404.443553" stroke="null"/>
+   <path id="svg_282" fill="#203030" d="m390.433197,69.778503c3.28894,-3.259087 8.711212,-3.259087 12.000122,0s3.28891,8.632103 0,11.891174" stroke="null"/>
+   <circle transform="matrix(0.11111208186398079,0,0,0.11010357932394854,-315.2222439787806,-104.17147449884115) " id="svg_283" fill="#ffff00" r="36" cy="1633.47578" cx="6404.443553" stroke="null"/>
+   <path id="svg_284" fill="#ffffaa" d="m392.388763,75.680054c0,-2.202057 1.777802,-3.963715 4.000061,-3.963715s4,1.761658 4,3.963715" stroke="null"/>
+   <circle transform="matrix(0.11111208186398079,0,0,0.11010357932394854,-315.2222439787806,-104.17147449884115) " id="svg_285" fill="#364B4C" r="76" cy="1633.47578" cx="6604.443553" stroke="null"/>
+   <path id="svg_286" fill="#203030" d="m412.655609,69.778503c3.28894,-3.259087 8.711212,-3.259087 12.000122,0s3.28891,8.632103 0,11.891174" stroke="null"/>
+   <circle transform="matrix(0.11111208186398079,0,0,0.11010357932394854,-315.2222439787806,-104.17147449884115) " id="svg_287" fill="#ffff00" r="36" cy="1633.47578" cx="6604.443553" stroke="null"/>
+   <path id="svg_288" fill="#ffffaa" d="m414.611206,75.680054c0,-2.202057 1.777802,-3.963715 4.000031,-3.963715s4.000031,1.761658 4.000031,3.963715" stroke="null"/>
+  </g>
+  <g id="svg_78" stroke="null">
+   <rect width="512" height="512" id="svg_43" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " y="6865.893625" x="52346.107537" stroke="null"/>
+   <g id="svg_44" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null">
+    <rect x="52443.460315" y="7007.845385" width="317.304" height="280.48" fill="#F2B851" id="svg_45" stroke="null"/>
+    <rect x="52506.988315" y="6955.453385" width="190.192" height="190.192" fill="#F2B851" id="svg_50" stroke="null"/>
+   </g>
+   <rect x="52691.227537" y="7216.013625" width="31.56" height="72.32" id="svg_55" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <rect x="52621.291537" y="7216.013625" width="31.56" height="72.32" id="svg_60" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <rect x="52551.363537" y="7216.013625" width="31.56" height="72.32" id="svg_61" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <rect x="52481.427537" y="7216.013625" width="31.56" height="72.32" id="svg_62" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_63" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_64" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_65" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_66" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_67" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_68" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_69" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_70" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_71" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_72" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_73" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_74" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_75" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_76" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_77" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+  </g>
+  <g id="svg_121" stroke="null">
+   <rect width="512" height="512" id="svg_79" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " y="6865.89387" x="53002.466378" stroke="null"/>
+   <g id="svg_90" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null">
+    <rect x="53099.819138" y="7007.845631" width="317.304" height="280.48" fill="#F2B851" id="svg_84" stroke="null"/>
+    <rect x="53163.347138" y="6955.453631" width="190.192" height="190.192" fill="#F2B851" id="svg_85" stroke="null"/>
+   </g>
+   <rect x="53347.586378" y="7216.01387" width="31.56" height="72.32" id="svg_92" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <rect x="53277.650378" y="7216.01387" width="31.56" height="72.32" id="svg_97" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <rect x="53207.722378" y="7216.01387" width="31.56" height="72.32" id="svg_102" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <rect x="53137.786378" y="7216.01387" width="31.56" height="72.32" id="svg_104" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_105" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_106" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_108" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_109" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_110" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_111" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_112" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_113" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_114" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_115" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_116" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_117" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_118" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_119" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+   <g id="svg_120" transform="matrix(0.07008361448464134,0,0,0.0622711131322923,-3155.045607738816,-370.988243348444) " stroke="null"/>
+  </g>
+  <g id="svg_132" stroke="null">
+   <path id="svg_122" fill="#AFBBBC" d="m490.611328,82.726677c0,1.937836 -1.599976,3.523323 -3.555603,3.523323l-39.11142,0c-1.955597,0 -3.555603,-1.585487 -3.555603,-3.523323l0,-14.974091c0,-1.937828 1.600006,-3.523308 3.555603,-3.523308l39.11142,0c1.955627,0 3.555603,1.58548 3.555603,3.523308l0,14.974091z" stroke="null"/>
+   <path id="svg_123" fill="#97A9AA" d="m444.388702,67.928772c0,-1.937843 1.600006,-3.699493 3.555603,-3.699493l39.11142,0c1.955627,0 3.555603,1.849762 3.555603,3.78756l0,14.709839c0,1.937836 -1.599976,3.523323 -3.555603,3.523323" stroke="null"/>
+   <circle transform="matrix(0.11111208186398079,0,0,0.11010357932394854,-315.2222439787806,-104.17147449884115) " id="svg_124" fill="#364B4C" r="76" cy="1633.47578" cx="6944.438835" stroke="null"/>
+   <path id="svg_125" fill="#203030" d="m450.433197,69.778503c3.28894,-3.259087 8.711212,-3.259087 12.000122,0s3.28891,8.632103 0,11.891174" stroke="null"/>
+   <circle transform="matrix(0.11111208186398079,0,0,0.11010357932394854,-315.2222439787806,-104.17147449884115) " id="svg_126" fill="#ffff00" r="36" cy="1633.47578" cx="6944.438835" stroke="null"/>
+   <path id="svg_127" fill="#ffffaa" d="m452.388763,75.680054c0,-2.202057 1.777802,-3.963715 4.000061,-3.963715s4,1.761658 4,3.963715" stroke="null"/>
+   <circle transform="matrix(0.11111208186398079,0,0,0.11010357932394854,-315.2222439787806,-104.17147449884115) " id="svg_128" fill="#364B4C" r="76" cy="1633.47578" cx="7144.438835" stroke="null"/>
+   <path id="svg_129" fill="#203030" d="m472.65564,69.778503c3.28894,-3.259087 8.711182,-3.259087 12.000122,0s3.288879,8.632103 0,11.891174" stroke="null"/>
+   <circle transform="matrix(0.11111208186398079,0,0,0.11010357932394854,-315.2222439787806,-104.17147449884115) " id="svg_130" fill="#ffff00" r="36" cy="1633.47578" cx="7144.438835" stroke="null"/>
+   <path id="svg_131" fill="#ffffaa" d="m474.611206,75.680054c0,-2.202057 1.777832,-3.963715 4,-3.963715s4.000061,1.761658 4.000061,3.963715" stroke="null"/>
+  </g>
+  <g id="svg_1">
+   <text stroke="white" fill="#ffffff" stroke-width="0" stroke-opacity="null" x="184.25" y="51.25" id="svg_35" font-size="12" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve">PWR</text>
+   <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="184.25" y="63.9375" id="svg_36" font-size="12" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve" stroke="white">RUN</text>
+   <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="182.25" y="75.25" id="svg_37" font-size="12" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve" stroke="white">SYC1</text>
+   <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="182.25" y="87.25" id="svg_38" font-size="12" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve" stroke="white">SYC2</text>
+  </g>
+  <g id="svg_133">
+   <rect id="led0" fill="white" set='#00FF00' stroke-width="0" y="44" x="218" width="13" height="6" stroke="null"/>
+   <rect id="led1" fill="white" set='#00FF00' stroke-width="0" y="56" x="218" width="13" height="6" stroke="null"/>
+   <rect id="led2" fill="white" set='#00FF00' stroke-width="0" y="68" x="218" width="13" height="6" stroke="null"/>
+   <rect id="led3" fill="white" set='#00FF00' stroke-width="0" y="80" x="218" width="13" height="6" stroke="null"/>
+  </g>
+  <g id="svg_91">
+   <text fill="#ffffff" stroke="white" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="238.5" y="51.25" id="svg_80" font-size="12" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve">C1</text>
+   <text fill="#ffffff" stroke="white" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="238.5" y="63.25" id="svg_81" font-size="12" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve">C2</text>
+   <text fill="#ffffff" stroke="white" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="238.5" y="75.25" id="svg_82" font-size="12" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve">C3</text>
+   <text fill="#ffffff" stroke="white" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="238.5" y="87.25" id="svg_83" font-size="12" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve">C4</text>
+  </g>
+  <g id="svg_135">
+   <rect id="led4" fill="white" set='#00FF00' stroke-width="0" y="44" x="259" width="13" height="6" stroke="null"/>
+   <rect id="led5" fill="white" set='#00FF00' stroke-width="0" y="56" x="259" width="13" height="6" stroke="null"/>
+   <rect id="led6" fill="white" set='#00FF00' stroke-width="0" y="68" x="259" width="13" height="6" stroke="null"/>
+   <rect id="led7" fill="white" set='#00FF00' stroke-width="0" y="80" x="259" width="13" height="6" stroke="null"/>
+  </g>
+  <g id="svg_103">
+   <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="279.5" y="51.4375" id="svg_46" font-size="12" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve" stroke="white">S1</text>
+   <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="279.5" y="63.0625" id="svg_47" font-size="12" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve" stroke="white">S2</text>
+   <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="279.5" y="75.0625" id="svg_48" font-size="12" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve" stroke="white">S3</text>
+   <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="279.5" y="87.0625" id="svg_49" font-size="12" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve" stroke="white">S4</text>
+  </g>
+  <g id="svg_137">
+   <rect id="led8" fill="white" set='red' stroke-width="0" y="44" x="297" width="13" height="6" stroke="null"/>
+   <rect id="led9" fill="white" set='red' stroke-width="0" y="56" x="297" width="13" height="6" stroke="null"/>
+   <rect id="led10" fill="white" set='red' stroke-width="0" y="68" x="297" width="13" height="6" stroke="null"/>
+   <rect id="led11" fill="white" set='red' stroke-width="0" y="80" x="297" width="13" height="6" stroke="null"/>
+  </g>
+  <g id="svg_107">
+   <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="315" y="51.25" id="svg_51" font-size="12" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve" stroke="white">01-16</text>
+   <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="315" y="63.25" id="svg_52" font-size="12" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve" stroke="white">17-32</text>
+   <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="315" y="75.25" id="svg_53" font-size="12" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve" stroke="white">33-48</text>
+   <text fill="#ffffff" stroke-width="0" stroke-opacity="null" x="318" y="87.25" id="svg_54" font-size="12" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve" stroke="white">SDY</text>
+  </g>
+  <g id="svg_139">
+   <rect id="led12" fill="white" set='red' stroke-width="0" y="44" x="349" width="13" height="6" stroke="null"/>
+   <rect id="led13" fill="white" set='red' stroke-width="0" y="56" x="349" width="13" height="6" stroke="null"/>
+   <rect id="led14" fill="white" set='red' stroke-width="0" y="68" x="349" width="13" height="6" stroke="null"/>
+   <rect id="led15" fill="white" set='red' stroke-width="0" y="80" x="349" width="13" height="6" stroke="null"/>
+  </g>
+ </g>
+</svg>

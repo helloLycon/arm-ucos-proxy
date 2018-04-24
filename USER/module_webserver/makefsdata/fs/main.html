@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Webmaster</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<!-- Le styles -->
+		<link href="assets/css/bootstrap_plus.min.css" rel="stylesheet">
+		<style type="text/css">
+			html{
+				overflow-x: hidden;
+				overflow-y: hidden;
+			}
+			body {
+				padding-top: 5px;
+				padding-bottom: 40px;
+			}
+			.sidebar-nav {
+				padding: 9px 0;
+			}
+			@media (max-width: 980px) {
+				/* Enable use of floated navbar text */
+				.navbar-text.pull-right {
+					float: none;
+					padding-left: 5px;
+					padding-right: 5px;
+				}
+			}
+			.pop{
+				position: fixed;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				display: none;
+				z-index: 998;
+			}
+			.pop.show{
+				display: block;
+			}
+			#prompt{
+				z-index: 999;
+			}
+			#check{
+				z-index: 999;
+			}
+			.accordion-submenu{
+				padding: 5px 5px;
+			}
+			.text-submenu{
+				padding-left: 25px;
+			}
+			.text-menu,.text-submenu{
+				color: #0480BE;
+			}
+		</style>
+	</head>
+
+	<body id="mainbody">
+		<!--提示-->
+		<div id="prompt" class="modal hide fade">
+		  <div class="modal-header">
+		    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		    <h3>提示</h3>
+		  </div>
+		  <div class="modal-body">
+		    <p class="text-center" id="prompt_text"></p>
+		  </div>
+		  <div class="modal-footer">
+		    <a href="#" data-toggle="modal" data-target="#prompt" class="btn btn-primary">确定</a>
+		  </div>
+		</div>	
+		<!--确认-->
+		<div id="check" class="modal hide fade">
+		  <div class="modal-header">
+		    <h3>确认</h3>
+		  </div>
+		  <div class="modal-body">
+		    <p class="text-center" id="check_text"></p>
+		  </div>
+		  <div class="modal-footer">
+		    <a id="check_yes" href="#" data-toggle="modal" data-target="#check" class="btn btn-primary">确定</a>
+		    <a id="check_no" href="#" data-toggle="modal" data-target="#check" class="btn">取消</a>
+		  </div>
+		</div>	
+		<!--重启倒计时-->
+		<div id="reboot_modal" class="modal hide fade">
+		  <div class="modal-header">
+		    <h3 id="reboot_title">等待重启</h3>
+		  </div>
+		  <div class="modal-body">
+		    <p class="text-center" id="reboot_text"></p>
+		  </div>
+		</div>	
+		<!--升级状态-->
+		<div id="update_modal" class="modal hide fade">
+		  <div class="modal-header">
+		    <h3>升级进度</h3>
+		  </div>
+		  <div class="modal-body">
+				<div class="progress progress-striped active">
+				  <div id="update_proc" class="bar" style="width: 0%;"></div>
+				</div>
+		  </div>
+		</div>	
+		<!--光口配置-->
+		<div id="opt_modal" class="modal hide fade">
+		  <div class="modal-header">
+		    <h3 id="opt_title"></h3>
+		  </div>
+		  <div class="modal-body">
+		  	<div class="row-fluid">
+			  	<div class="offset3">
+				  	<form class="form-inline">
+				  		<label class="checkbox">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开关：</label>
+				  		<select id="opt_sw" class="input-medium">
+				  			<option>启用</option>
+				  			<option>关断</option>
+				  		</select>
+				  	</form>
+				  	<form class="form-inline">
+				  		<label class="checkbox">告警抑制：</label>
+				  		<select id="opt_trap" class="input-medium">
+				  			<option>允许告警上报</option>
+				  			<option>抑制告警上报</option>
+				  		</select>
+				  	</form>
+				  	<form class="form-inline">
+				  		<label class="checkbox">环回状态：</label>
+				  		<select id="opt_loop" class="input-medium">
+				  			<option>正常工作</option>
+				  			<option>线路环回</option>
+				  			<option>设备环回</option>
+				  			<option>双向环回</option>
+				  		</select>
+				  	</form>
+			  	</div>
+		  	</div>
+		  </div>
+		  <div class="modal-footer">
+		    <a href="#" id="opt_yes" data-toggle="modal" data-target="#opt_modal" class="btn btn-primary">确定</a>
+		    <a href="#" data-toggle="modal" data-target="#opt_modal" class="btn">取消</a>
+		  </div>
+		</div>
+		<!--eth配置-->
+		<div id="eth_modal" class="modal hide fade">
+		  <div class="modal-header">
+		    <h3 id="eth_title"></h3>
+		  </div>
+		  <div class="modal-body">
+		  	<div class="row-fluid">
+			  	<div class="offset3">
+				  	<form class="form-inline">
+				  		<label class="checkbox">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开关：</label>
+				  		<select id="eth_sw" class="input-medium">
+				  			<option>启用</option>
+				  			<option>关断</option>
+				  		</select>
+				  	</form>
+				  	<form class="form-inline">
+				  		<label class="checkbox">工作模式：</label>
+				  		<select id="eth_mode" class="input-medium">
+				  			<option>自动协商</option>
+				  			<option>强制</option>
+				  		</select>
+				  	</form>
+				  	<form class="form-inline">
+				  		<label class="checkbox">接口速率：</label>
+				  		<select id="eth_speed" class="input-medium">
+				  			<option>10M</option>
+				  			<option>100M</option>
+				  		</select>
+				  	</form>
+				  	<form class="form-inline">
+				  		<label class="checkbox">全半双工：</label>
+				  		<select id="eth_duplex" class="input-medium">
+				  			<option>全双工</option>
+				  			<option>半双工</option>
+				  		</select>
+				  	</form>
+				  	<form class="form-inline">
+				  		<label class="checkbox">流量控制：</label>
+				  		<select id="eth_fctrl" class="input-medium">
+				  			<option>开启</option>
+				  			<option>关闭</option>
+				  		</select>
+				  	</form>
+				  	<form class="form-inline">
+				  		<label class="checkbox">告警抑制：</label>
+				  		<select id="eth_trap" class="input-medium">
+				  			<option>允许告警上报</option>
+				  			<option>抑制告警上报</option>
+				  		</select>
+				  	</form>
+			  	</div>
+		  	</div>
+		  </div>
+		  <div class="modal-footer">
+		    <a href="#" id="eth_yes" data-toggle="modal" data-target="#eth_modal" class="btn btn-primary">确定</a>
+		    <a href="#" data-toggle="modal" data-target="#eth_modal" class="btn">取消</a>
+		  </div>
+		</div>
+		<!--e1配置-->
+		<div id="e1_modal" class="modal hide fade">
+		  <div class="modal-header">
+		    <h3 id="e1_title"></h3>
+		  </div>
+		  <div class="modal-body">
+		  	<div class="row-fluid">
+			  	<div class="offset3">
+				  	<form class="form-inline">
+				  		<label class="checkbox">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开关：</label>
+				  		<select id="e1_sw" class="input-medium">
+				  			<option>启用</option>
+				  			<option>关断</option>
+				  		</select>
+				  	</form>
+				  	<form class="form-inline">
+				  		<label class="checkbox">告警抑制：</label>
+				  		<select id="e1_trap" class="input-medium">
+				  			<option>允许告警上报</option>
+				  			<option>抑制告警上报</option>
+				  		</select>
+				  	</form>
+				  	<form class="form-inline">
+				  		<label class="checkbox">环回状态：</label>
+				  		<select id="e1_loop" class="input-medium">
+				  			<option>正常工作</option>
+				  			<option>线路环回</option>
+				  			<option>设备环回</option>
+				  		</select>
+				  	</form>
+			  	</div>
+		  	</div>
+		  </div>
+		  <div class="modal-footer">
+		    <a href="#" id="e1_yes" data-toggle="modal" data-target="#e1_modal" class="btn btn-primary">确定</a>
+		    <a href="#" data-toggle="modal" data-target="#e1_modal" class="btn">取消</a>
+		  </div>
+		</div>
+		<!-------------------end of modals...------------------->
+		<!-------------------end of modals...------------------->
+		<!-------------------end of modals...------------------->
+		<!-------------------end of modals...------------------->
+		<!-------------------end of modals...------------------->
+		<div class="pop" id="pop"></div>
+		<!--PANEL-->
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div style="padding-top: 20px;" class="span2">
+					<div class="sidebar-nav">
+						<ul class="nav nav-list">
+							<li>
+								<form id="panel_form" method="post" action="/panel_refresh.cgi" class="form-inline">
+									<label class="checkbox">刷新周期</label>
+									<select id="panel_select" name="panel_refresh" class="span7">
+										<option>不刷新</option>
+										<option>5秒</option>
+										<option>10秒</option>
+										<option>30秒</option>
+										<option>1分钟</option>
+									</select>
+								</form>
+							</li>
+						</ul>
+					</div><!--/.well -->
+				</div>
+				<div class="span10">
+					<embed id="panel_svg" type="image/svg+xml" src="assets/panel/gan111.svg"></embed>
+					<!--<img id="panel_svg" src="assets/panel/gan111.svg">-->
+					<!--<svg xmlns="assets/panel/gan111.svg"></svg>-->
+					<!--<object id="panel_svg" data="assets/panel/gan111.svg" type="image/svg+xml"></object>-->
+				</div>
+			</div><!--/row-->			
+		</div><!--/.fluid-container-->
+		<!--legend panel reference...-->
+		<!--<iframe id="panel_iframe" src="panel.html" scrolling="no" frameborder="0" width="100%" height="100px"></iframe>-->
+		<!--HORIZONTAL NAV-BAR-->
+		<div class="navbar navbar-inverse">
+			<div class="navbar-inner">
+				<div class="container-fluid">
+					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="brand" href="#">GAN111</a>
+					<div class="nav-collapse collapse">
+						<ul class="nav">
+							<!--局端/远端-->
+							<li>
+								<form id="cent_rmt_form" method="post" action="/cent_rmt.cgi" class="navbar-form">
+									<select id="cent_rmt" name="cent_rmt" class="span2">
+										<option>局端</option>
+										<option>远端</option>
+									</select>
+								</form>
+							</li>
+							<li class="divider-vertical"></li>
+							<!--重启-->
+							<li>
+								<form id="reboot_form" method="post" action="/reboot.cgi" class="navbar-form">
+									<button id="reboot_btn" type="button" class="btn btn-inverse" name="reboot"><i class="icon-off icon-white"></i>&nbsp;&#37325;&#21551;</button>
+								</form>
+							</li>
+							<!--<li class="active"><a href="#">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#contact">Contact</a></li>-->
+						</ul>
+						<!--<ul class="nav pull-right">
+							<li><a href="#">&#19978;&#30005;&#26102;&#38388;&#65306;</a></li>
+							<li class="divider-vertical"></li>
+							<li><a href="#">&#24050;&#30331;&#24405;</a></li>
+						</ul>-->
+						<!--Admin已登录-->
+						<p class="navbar-text pull-right">
+							<a id="account_name" href="#" class="navbar-link"></a>&nbsp;&#24050;&#30331;&#24405;
+						</p>
+					</div><!--/.nav-collapse -->
+				</div>
+			</div>
+		</div>
+		<!--VERTICAL-LEFTSIZE NAVIGATION-->
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span2">
+					<div class="accordion" id="accordion2">
+						<!--账户管理-->
+					  <div class="accordion-group">
+					    <div id="nav_account" class="accordion-heading accordion-menu" href="account.html">
+					      <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+									<div class="text-menu">账户管理</div>
+					      </div>
+					    </div>
+					  </div>
+					  <!--系统-->
+					  <div class="accordion-group">
+					    <div class="accordion-heading">
+					      <div style="color: black;" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+					        <strong><i id="nav_sys_icon" class="icon-chevron-down"></i>&nbsp;系统</strong>
+					      </div>
+					    </div>
+					    <div id="collapseTwo" class="accordion-body collapse">
+					      <div id="nav_info" class="accordion-inner accordion-submenu" href="net.html">
+					        <div class="text-submenu">设备信息</div>
+					      </div>
+					      <div id="nav_update" class="accordion-inner accordion-submenu" href="update.html">
+					        <div class="text-submenu">软件升级</div>
+					      </div>
+					    </div>
+					  </div>
+					  <!--板卡管理-->
+					  <div class="accordion-group">
+					    <div id="nav_board" class="accordion-heading accordion-menu" href="boards.shtml">
+					      <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+									<div class="text-menu">板卡管理</div>
+					      </div>
+					    </div>
+					  </div>
+					  <!--端口管理-->
+					  <div class="accordion-group">
+					    <div class="accordion-heading">
+					      <div style="color: black;" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+					        <strong><i id="nav_port_icon" class="icon-chevron-down"></i>&nbsp;端口管理</strong>
+					      </div>
+					    </div>
+					    <div id="collapseFour" class="accordion-body collapse">
+					      <div id="nav_opt" class="accordion-inner accordion-submenu" href="opt.html">
+					        <div class="text-submenu">光口</div>
+					      </div>
+					      <div id="nav_eth" class="accordion-inner accordion-submenu" href="eth.html">
+					        <div class="text-submenu">以太网端口</div>
+					      </div>
+					      <div id="nav_e1" class="accordion-inner accordion-submenu" href="e1.html">
+					        <div class="text-submenu">E1端口</div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+        </div><!--/span-->
+        <div class="span10">
+					<iframe id="myiframe" scrolling="auto" frameborder="0" width="100%"></iframe>
+        </div><!--/span-->
+      </div><!--/row-->
+		</div>
+		
+		<div class="navbar navbar-fixed-bottom">
+			<div class="navbar-inner">
+				<ul class="nav">
+					<li>
+						<a>&copy; &#27993;&#27743;&#24658;&#25463;&#36890;&#20449;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; 2017</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="assets/jQ/jquery_bootstrap.min.js"></script>
+		<script src="assets/js/panel.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>

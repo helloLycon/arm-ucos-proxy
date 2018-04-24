@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="windows-1252">
+		<title>Webmaster</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<!-- Le styles -->
+		<link href="assets/css/bootstrap_plus.min.css" rel="stylesheet">
+		<style type="text/css">
+			html{
+				overflow-x: hidden;
+				overflow-y: auto;
+			}
+			body {
+				padding-top: 5px;
+				padding-bottom: 40px;
+			}
+			.sidebar-nav {
+				padding: 9px 0;
+			}
+
+			@media (max-width: 980px) {
+				/* Enable use of floated navbar text */
+				.navbar-text.pull-right {
+					float: none;
+					padding-left: 5px;
+					padding-right: 5px;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="span12">
+					<div class="page-header">
+						<h4>&#26495;&#21345;&#31649;&#29702; <small></small></h4>
+					</div>
+					
+					<div class="span9">
+						<table class="table table-hover table-striped">
+							<thead>
+								<tr>
+									<th>&#27133;&#20301;</th>
+									<th>&#22411;&#21495;</th>
+									<th>&#19994;&#21153;&#30424;&#31867;&#22411;</th>
+									<th>&#30828;&#20214;&#29256;&#26412;</th>
+									<th>&#36719;&#20214;&#29256;&#26412;</th>
+									<th>FPGA&#29256;&#26412;</th>
+									<th>Boot&#29256;&#26412;</th>
+									<th>&#29366;&#24577;</th>
+								</tr>
+							</thead>
+							<tbody>
+								<!--#board_line1-->
+								<!--#board_line2-->
+								<!--#board_line3-->
+								<!--#board_line4-->
+								<!--#board_line5-->
+								<!--#board_line6-->
+								<!--#board_line7-->
+								<!--#board_line8-->
+								<!--#board_line9-->
+								<!--#board_line10-->
+							</tbody>
+						</table>
+					</div>
+				</div><!--/span-->
+			</div><!--/row-->
+
+			<hr>
+
+		</div><!--/.fluid-container-->
+
+		<!-- Le javascript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="assets/jQ/jquery_bootstrap.min.js"></script>
+	</body>
+</html>

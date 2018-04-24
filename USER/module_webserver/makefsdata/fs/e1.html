@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Webmaster</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<!-- Le styles -->
+		<link href="assets/css/bootstrap_plus.min.css" rel="stylesheet">
+		<style type="text/css">
+			html{
+				overflow-x: hidden;
+				overflow-y: auto;
+			}
+			body {
+				padding-top: 5px;
+				padding-bottom: 40px;
+			}
+			.sidebar-nav {
+				padding: 9px 0;
+			}
+
+			@media (max-width: 980px) {
+				/* Enable use of floated navbar text */
+				.navbar-text.pull-right {
+					float: none;
+					padding-left: 5px;
+					padding-right: 5px;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="span12">
+					<div class="page-header">
+						<h4>&#31471;&#21475;&#31649;&#29702; <small>E1&#31471;&#21475;</small></h4>
+					</div>
+					
+					<div class="span12">
+						<form method="POST" action="/e1.cgi">
+							<table class="table table-hover table-striped table-condensed">
+								<thead>
+									<tr>
+										<th>端口名称</th>
+										<th>端口位置</th>
+										<th>端口开关</th>
+										<th>环回状态</th>
+										<th>告警抑制</th>
+										<th>LOS状态</th>
+										<th>AIS状态</th>
+										<th>LOOP状态</th>
+										<!--<th>LOF&#29366;&#24577;</th>
+										<th>误码状态</th>
+										<th>对告状态</th>
+										<th>CAS状态</th>
+										<th>MLOF状态</th>-->
+										<th>&nbsp;</th>
+									</tr>
+								</thead>
+								<tbody id="tbody">
+								</tbody>
+							</table>
+							<div class="span3 offset4">
+								<button id="e1_refresh" class="btn btn-block btn-large" type="button" name="refresh"><i class="icon-repeat"></i>&nbsp;&#21047;&#26032;</button>
+							</div>
+						</form>
+					</div>
+				</div><!--/span-->
+			</div><!--/row-->
+
+			<hr>
+
+		</div><!--/.fluid-container-->
+
+		<!-- Le javascript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="assets/jQ/jquery_bootstrap.min.js"></script>
+		<script src="assets/js/e1.js"></script>
+	</body>
+</html>
